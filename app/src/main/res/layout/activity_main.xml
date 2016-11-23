@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.test.MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/hs"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#EEEEEE"
+        android:scrollbars="none"
+        >
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="推荐" />
+
+            <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="热点" />
+
+            <RadioButton
+                android:id="@+id/rd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="社会" />
+
+            <RadioButton
+                android:id="@+id/rd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="娱乐" />
+
+            <RadioButton
+                android:id="@+id/rd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="科技" />
+
+            <RadioButton
+                android:id="@+id/rd6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="汽车" />
+
+            <RadioButton
+                android:id="@+id/rd7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="体育" />
+
+            <RadioButton
+                android:id="@+id/rd8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="财经" />
+
+            <RadioButton
+                android:id="@+id/rd9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="军事" />
+
+            <RadioButton
+                android:id="@+id/rd10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="健康" />
+
+            <RadioButton
+                android:id="@+id/rd11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:button="@null"
+                android:text="北京" />
+        </RadioGroup>
+    </HorizontalScrollView>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
